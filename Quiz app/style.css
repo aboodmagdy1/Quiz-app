@@ -1,0 +1,138 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+margin: 0;
+font-family: Tahoma,Arial;
+}
+.quiz-app
+{
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+}
+.quiz-app .quiz-info
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+.quiz-app .quiz-area
+{
+    padding: 20px;
+    background-color: #FFF;
+}
+.quiz-app .quiz-area h2 
+{
+    margin: 0;
+}
+.quiz-app .quiz-anwser
+{
+    background-color: #FFF;
+    padding: 0px 20px 20px;
+}
+
+.quiz-app .quiz-anwser .answer
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+.quiz-app .quiz-anwser .answer:not(:last-child)
+{
+    border-bottom:1px solid #dfdfdf ;
+}
+/*(الي هو بعده +)بقوله هات العنصر الي معمول عليه اتشيك وخلي ال ليبول بتاعه ب لون معين*/
+.quiz-app .quiz-anwser .answer input[type="Radio"]:checked +label 
+{
+    color: #0075ff;
+}
+.quiz-app .quiz-anwser .answer label
+{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    color: #777;
+    margin-left:5px ;
+}
+
+.quiz-app .submit-button
+{
+    background-color: #0075ff;
+    display: block;
+    padding:  15px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+.quiz-app .bullets 
+{
+    border-top: 1px solid #dfdfdf;
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+}
+.quiz-app .bullets  .spans
+{
+    display: flex;
+    flex:1;
+    
+}
+.quiz-app .bullets  .spans span
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#dfdfdf;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.quiz-app .bullets  .spans span.on
+{
+    background-color: #0075ff;
+}
+
+
+.quiz-app .results
+{
+    margin-top: 10px;
+
+}
+.quiz-app .results span
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.quiz-app .results span.bad
+{
+    color:#dc0a0a ;
+}
+.quiz-app .results span.good
+{
+    color:#009688 ;
+}
+.quiz-app .results span.perfect
+{
+    color: #0076ff;
+}
+
+
+
+
+
+
+
+

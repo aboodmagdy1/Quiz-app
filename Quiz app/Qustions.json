@@ -1,0 +1,38 @@
+[
+    {
+        "title":"what is the HCI",
+        "answers":["is Human face Id","is Hcl","Is Hang coco interaction","Is the Human computer interaction "],
+        "right_answer":"Is the Human computer interaction "
+    },
+    {
+        "title":"what is the network",
+        "answers":["is a connection to the internet","is Hcl","Is a  cocection to the main sever ","is a connection between two or more devices"],
+        "right_answer":"is a connection between two or more devices"
+    },
+    {
+        "title":"what is the SMPS",
+        "answers":["switched mode power supply","so mo po sa","soo moo poo saaa ","is a connection between two or more devices"],
+        "right_answer":"switched mode power supply"
+    },
+    {
+        "title":"how is abood magdy ",
+        "answers":["he is a bad man ","he is a good man","he is bad and try to be good","he is no thing"],
+        "right_answer":"he is bad and try to be good"
+    },    {
+        "title":"how is abood magdy ",
+        "answers":["he is a bad man ","he is a good man","he is bad and try to be good","he is no thing"],
+        "right_answer":"he is bad and try to be good"
+    },    {
+        "title":"how is abood magdy ",
+        "answers":["he is a bad man ","he is a good man","he is bad and try to be good","he is no thing"],
+        "right_answer":"he is bad and try to be good"
+    },    {
+        "title":"how is abood magdy ",
+        "answers":["he is a bad man ","he is a good man","he is bad and try to be good","he is no thing"],
+        "right_answer":"he is bad and try to be good"
+    },    {
+        "title":"how is abood magdy ",
+        "answers":["he is a bad man ","he is a good man","he is bad and try to be good","he is no thing"],
+        "right_answer":"he is bad and try to be good"
+    }
+]
